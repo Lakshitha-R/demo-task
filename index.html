@@ -43,7 +43,7 @@ header nav ul{
 	margin: 0;
 	padding: 0;
 	display: flex;
-	display: flex;
+	flex-wrap: wrap;
 }
 header nav ul li{
 	list-style: none;
@@ -79,6 +79,9 @@ header nav ul li:hover:after {
   text-decoration: none;
   color: pink;
 }
+		@media(max-width: 900px){
+			header nav ul li{
+				width:100%;
   		hr{
       		width: 30%;
       		margin: auto;
