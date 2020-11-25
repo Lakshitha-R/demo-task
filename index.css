@@ -337,6 +337,7 @@ hr{
       text-align: center;
       width: 100%;
       font-size: 30px;
+	margin-bottom: 20px;
       color: darkblue;
       font-family: 'Acme', sans-serif;
     }
